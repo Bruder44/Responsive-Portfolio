@@ -109,15 +109,18 @@ width: 100px;
 width: 640px;
 background: #ffffff;
 display: flex;}
-
+.MT {
+height: 150px;
+width: 150px;
+}
 .CT {
-height: 250px;
-width: 250px;
+height: 150px;
+width: 150px;
 }
 
 .PT {
-height: 250px;
-width: 250px;
+height: 150px;
+width: 150px;
 }
 .contain {
 width: 960px;
@@ -133,7 +136,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 color: black;
 font-style: bold;
 }
-@media screen and (max-device-width:980px) {
+ @media screen and (max-width:980px) {
 div#contain {
 width: 960px;
 }
@@ -152,7 +155,8 @@ width: 640px;
 div#Portfolio {
 width: 640px;
 }}
-@media screen and (max-device-width:768px) {
+
+@media screen and (max-width:768px) {
 header {
 position: static;
 }
@@ -177,7 +181,8 @@ width: 300px;
 }
 div#header {
 position: static;
-}}
+}
+
 @media screen and (max-device-width:640px) {
 header {
 position: static;
